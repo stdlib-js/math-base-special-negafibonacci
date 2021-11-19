@@ -20,7 +20,7 @@ limitations under the License.
 
 # negaFibonacci
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the nth [negaFibonacci number][fibonacci-number].
 
@@ -220,8 +220,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-negafibonacci/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-negafibonacci?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-base-special-negafibonacci.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-base-special-negafibonacci/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
