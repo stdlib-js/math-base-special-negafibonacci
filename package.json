@@ -1,0 +1,33 @@
+{
+  "name": "@stdlib/math-base-special-negafibonacci",
+  "version": "0.0.0",
+  "description": "Compute the nth negaFibonacci number.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-negafibonacci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "special functions",
+    "special",
+    "function",
+    "fibonacci",
+    "negafibonacci",
+    "fib",
+    "nfib",
+    "number"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
