@@ -65,32 +65,30 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-negafibonacci
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-negafibonacci = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.negafibonacci;
-})();
-</script>
+var negafibonacci = require( '@stdlib/math-base-special-negafibonacci' );
 ```
 
 #### negafibonacci( n )
@@ -154,13 +152,8 @@ var v = negafibonacci( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var negafibonacci = require( '@stdlib/math-base-special-negafibonacci' );
 
 var v;
 var i;
@@ -169,11 +162,6 @@ for ( i = 0; i > -79; i-- ) {
     v = negafibonacci( i );
     console.log( v );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -260,6 +248,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-special-negafibonacci/tree/esm
+[branches-url]: https://github.com/stdlib-js/math-base-special-negafibonacci/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-negafibonacci/main/LICENSE
 
@@ -269,9 +258,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci/tree/umd
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
 
-[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas/tree/umd
+[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas
 
 <!-- </related-links> -->
 
