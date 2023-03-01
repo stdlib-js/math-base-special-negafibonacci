@@ -65,14 +65,30 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-negafibonacci
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@deno/mod.js';
+var negafibonacci = require( '@stdlib/math-base-special-negafibonacci' );
 ```
 
 #### negafibonacci( n )
@@ -137,7 +153,7 @@ var v = negafibonacci( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@deno/mod.js';
+var negafibonacci = require( '@stdlib/math-base-special-negafibonacci' );
 
 var v;
 var i;
@@ -160,8 +176,8 @@ for ( i = 0; i > -79; i-- ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/fibonacci`][@stdlib/math/base/special/fibonacci]</span><span class="delimiter">: </span><span class="description">compute the nth Fibonacci number.</span>
--   <span class="package-name">[`@stdlib/math/base/special/negalucas`][@stdlib/math/base/special/negalucas]</span><span class="delimiter">: </span><span class="description">compute the nth negaLucas number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/fibonacci`][@stdlib/math/base/special/fibonacci]</span><span class="delimiter">: </span><span class="description">compute the nth Fibonacci number.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/negalucas`][@stdlib/math/base/special/negalucas]</span><span class="delimiter">: </span><span class="description">compute the nth negaLucas number.</span>
 
 </section>
 
@@ -176,7 +192,7 @@ for ( i = 0; i > -79; i-- ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -242,9 +258,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci/tree/deno
+[@stdlib/math/base/special/fibonacci]: https://github.com/stdlib-js/math-base-special-fibonacci
 
-[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas/tree/deno
+[@stdlib/math/base/special/negalucas]: https://github.com/stdlib-js/math-base-special-negalucas
 
 <!-- </related-links> -->
 
