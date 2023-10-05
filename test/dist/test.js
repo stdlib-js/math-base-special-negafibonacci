@@ -31,7 +31,7 @@ var negafibonacci = require( './../../dist' );
 
 // FIXTURES //
 
-var NEGAFIBONACCI = require( './../../dist/negafibonacci.json' );
+var NEGAFIBONACCI = require( './../../lib/negafibonacci.json' );
 
 
 // TESTS //
