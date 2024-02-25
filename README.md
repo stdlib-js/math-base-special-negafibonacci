@@ -95,7 +95,7 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 ## Usage
 
 ```javascript
-import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@esm/index.mjs';
+import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@v0.2.1-esm/index.mjs';
 ```
 
 #### negafibonacci( n )
@@ -165,7 +165,7 @@ var v = negafibonacci( NaN );
 <body>
 <script type="module">
 
-import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@esm/index.mjs';
+import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@v0.2.1-esm/index.mjs';
 
 var v;
 var i;
