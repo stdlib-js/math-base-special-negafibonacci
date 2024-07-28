@@ -95,6 +95,11 @@ with seed values `F_0 = 0` and `F_{-1} = 1`.
 ## Usage
 
 ```javascript
+import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-negafibonacci/tags). For example,
+
+```javascript
 import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@v0.3.0-deno/mod.js';
 ```
 
@@ -160,7 +165,7 @@ var v = negafibonacci( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@v0.3.0-deno/mod.js';
+import negafibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-negafibonacci@deno/mod.js';
 
 var v;
 var i;
