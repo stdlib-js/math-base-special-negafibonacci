@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-05-16)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`072e93e`](https://github.com/stdlib-js/stdlib/commit/072e93e688e341538c2f1dd25e67fff5dec753dc) - **docs:** use correct function name _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`e9f9513`](https://github.com/stdlib-js/stdlib/commit/e9f951387dd4387dc0a7b4acfadc59c5b2541736) - **bench:** update random value generation [(#6430)](https://github.com/stdlib-js/stdlib/pull/6430) _(by Harsh)_
 -   [`9711748`](https://github.com/stdlib-js/stdlib/commit/9711748a23b2cae8cdf0ff97f4400f1d09e373a7) - **chore:** remove unused dependencies in C implementation [(#4940)](https://github.com/stdlib-js/stdlib/pull/4940) _(by Gururaj Gurram)_
