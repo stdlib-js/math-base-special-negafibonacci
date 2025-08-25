@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-18)
+## Unreleased (2025-08-25)
 
 <section class="reverts">
 
@@ -16,12 +16,25 @@
 
 <!-- /.reverts -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`20ddfd7`](https://github.com/stdlib-js/stdlib/commit/20ddfd7b46fc28c6d2cba7db90b6a48a35a43aa5): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`20ddfd7`](https://github.com/stdlib-js/stdlib/commit/20ddfd7b46fc28c6d2cba7db90b6a48a35a43aa5) - **refactor:** modify C implementation to accept `double` value instead of `int32` in `math/base/special/negafibonacci` [(#7953)](https://github.com/stdlib-js/stdlib/pull/7953) _(by Gunj Joshi, Athan Reines)_
 -   [`072e93e`](https://github.com/stdlib-js/stdlib/commit/072e93e688e341538c2f1dd25e67fff5dec753dc) - **docs:** use correct function name _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`e9f9513`](https://github.com/stdlib-js/stdlib/commit/e9f951387dd4387dc0a7b4acfadc59c5b2541736) - **bench:** update random value generation [(#6430)](https://github.com/stdlib-js/stdlib/pull/6430) _(by Harsh)_
@@ -43,8 +56,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
+-   Gunj Joshi
 -   Gururaj Gurram
 -   Harsh
 -   Karan Anand
