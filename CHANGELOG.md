@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-25)
+## Unreleased (2025-08-26)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - remove unneeded #include
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="reverts">
 
@@ -34,6 +44,7 @@
 
 <details>
 
+-   [`0e4ba2c`](https://github.com/stdlib-js/stdlib/commit/0e4ba2ca838ee0cbb11d1511280549e47442b735) - **fix:** remove unneeded #include _(by Philipp Burckhardt)_
 -   [`20ddfd7`](https://github.com/stdlib-js/stdlib/commit/20ddfd7b46fc28c6d2cba7db90b6a48a35a43aa5) - **refactor:** modify C implementation to accept `double` value instead of `int32` in `math/base/special/negafibonacci` [(#7953)](https://github.com/stdlib-js/stdlib/pull/7953) _(by Gunj Joshi, Athan Reines)_
 -   [`072e93e`](https://github.com/stdlib-js/stdlib/commit/072e93e688e341538c2f1dd25e67fff5dec753dc) - **docs:** use correct function name _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
